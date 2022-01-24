@@ -38,7 +38,7 @@ body {
 .card {
   background-color: var(--neutral-card-bg);
   height: 65%;
-  width: 20%;
+  width: min(90%, 420px);
   border-radius: 1.6rem;
   padding: 1.6rem;
   display: flex;
@@ -160,22 +160,4 @@ h2 {
 .attribution a {
   font-size: 14px;
   color: var(--primary-cyan);
-}
-
-@media only screen and (max-width: 1800px) {
-  .card {
-    width: 30%;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .card {
-    width: 50%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .card {
-    width: 80%;
-  }
 }
